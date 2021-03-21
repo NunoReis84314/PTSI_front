@@ -2787,7 +2787,6 @@ input, select, textarea {
 
 /* Wrapper */
 
-
 	.wrapper {
 		padding: 6em 0 4em 0 ;
 	}
@@ -2818,7 +2817,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #2e3842;
+			background-color: #21b2a6;
 			color: #c8ece9;
 		}
 
@@ -3318,7 +3317,6 @@ input, select, textarea {
 
 		}
 
-
 /* Page Wrapper + Menu */
 
 	#page-wrapper {
@@ -3512,18 +3510,15 @@ input, select, textarea {
 						letter-spacing: 0.225em;
 						padding: 0 1.5em;
 						text-transform: uppercase;
-						
-						
 					}
 
 						#header nav > ul > li > a.menuToggle {
 							outline: 0;
 							position: relative;
-							
 						}
 
 							#header nav > ul > li > a.menuToggle:after {
-								background-image: url("images/bars.svg"); 
+								background-image: url("images/bars.svg");
 								background-position: right center;
 								background-repeat: no-repeat;
 								content: '';
@@ -3532,7 +3527,7 @@ input, select, textarea {
 								vertical-align: top;
 								width: 2em;
 							}
-                           
+
 							@media screen and (max-width: 736px) {
 
 								#header nav > ul > li > a.menuToggle {
